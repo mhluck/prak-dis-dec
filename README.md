@@ -37,7 +37,11 @@ prak-dis-dec
 ├── 11
 ├── 12
 ├── 13
-└── 14
+├── 14
+└── workspace
+    └── workspace-01
+    └── workspace-02
+    └── workspace-dst
 ```
 
 Setiap folder berisi laporan kegiatan praktikum pada minggu yang bersangkutan.

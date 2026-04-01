@@ -1,0 +1,33 @@
+# =========================
+# Virtual environment
+# =========================
+.venv/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Distribution / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.swp
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
