@@ -375,3 +375,7 @@ python client.py
 Hasil:
 
 - Data dari server GraphQL berhasil ditampilkan di terminal
+
+---
+### Kesimpulan
+Praktikum ini menunjukkan bahwa setiap aplikasi yang berjalan di sistem operasi akan dikelola sebagai proses yang dapat dipantau dan dikontrol penggunaan sumber dayanya melalui Task Manager. Selain itu, implementasi GraphQL menggunakan Python (FastAPI & Strawberry) membuktikan bahwa komunikasi antar proses dalam sistem terdistribusi dapat dilakukan secara efisien, di mana client memiliki fleksibilitas penuh untuk meminta data spesifik yang dibutuhkan dari server. Dengan keberhasilan pengujian melalui browser maupun skrip client terpisah, dapat disimpulkan bahwa arsitektur ini sangat efektif untuk pertukaran data yang terstruktur dan dinamis.
