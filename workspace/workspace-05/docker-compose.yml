@@ -1,0 +1,13 @@
+services:
+  # aplikasi yang akan di-scale
+  bs_app:
+    build: ./blacksheep_lb
+
+  # aktifkan nginx dengan menggunakan nginx/Dockerfile
+  nginx:
+    container_name: nginx
+    build: ./nginx
+    ports:
+      - 80:80
+    depends_on:
+      - bs_app
