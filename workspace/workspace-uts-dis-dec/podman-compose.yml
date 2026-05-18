@@ -1,0 +1,11 @@
+services:
+  backend_app:
+    build: ./app
+    # port tidak di-expose agar wajib lewat nginx
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - backend_app
