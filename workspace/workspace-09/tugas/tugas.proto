@@ -1,0 +1,18 @@
+syntax = "proto3";
+package tugasdb;
+
+message PegawaiRequest {
+    int32 id = 1;
+}
+
+message PegawaiResponse {
+    int32 id = 1;
+    string kode = 2;
+    string nama = 3;
+    bool aktif = 4;
+    float gaji = 5;
+}
+
+service PegawaiService {
+    rpc GetPegawai (PegawaiRequest) returns (PegawaiResponse);
+}

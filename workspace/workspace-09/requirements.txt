@@ -1,0 +1,6 @@
+strawberry-graphql
+sqlmodel
+gql
+aiohttp
+grpcio
+grpcio-tools
