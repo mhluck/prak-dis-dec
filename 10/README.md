@@ -266,7 +266,7 @@ yugabyted stop --base_dir=$HOME/var/node3
 
 ### 5. Yugabyte University Certification (Tugas)
 
-![venv](images)
+![venv](images/Screenshot%202026-06-02%20121811.png)
 
 ---
 
